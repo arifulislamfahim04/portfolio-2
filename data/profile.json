@@ -1,0 +1,23 @@
+{
+    "name": "Alex Morgan",
+    "avatar": "https://ui-avatars.com/api/?name=Alex+Morgan&background=7CB342&color=fff&size=200",
+    "roles": ["Senior Frontend Engineer", "UI/UX Designer", "Performance Expert"],
+    "bio": "I am a Senior Software Architect with over 10 years of experience building scalable, high-performance web applications. I specialize in JavaScript ecosystems, design systems, and bridging the gap between design and engineering.",
+    "socials": [
+        {"platform": "GitHub", "icon": "bxl-github", "url": "https://github.com"},
+        {"platform": "LinkedIn", "icon": "bxl-linkedin", "url": "https://linkedin.com"},
+        {"platform": "Twitter", "icon": "bxl-twitter", "url": "https://twitter.com"}
+    ],
+    "services": [
+        {"title": "Frontend Arch", "icon": "bx-code-alt", "desc": "Scalable architecture for enterprise apps."},
+        {"title": "UI Design", "icon": "bx-palette", "desc": "Pixel-perfect intuitive interfaces."},
+        {"title": "Performance", "icon": "bx-rocket", "desc": "Core Web Vitals optimization."},
+        {"title": "Mentorship", "icon": "bx-group", "desc": "Leading engineering teams."}
+    ],
+    "contactMessage": "I am currently open for freelance projects and consulting. Feel free to reach out.",
+    "contactDetails": [
+        {"icon": "bx-map", "label": "Location", "value": "San Francisco, CA"},
+        {"icon": "bx-envelope", "label": "Email", "value": "hello@alexmorgan.dev"},
+        {"icon": "bx-phone", "label": "Phone", "value": "+1 (555) 012-3456"}
+    ]
+}

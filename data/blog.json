@@ -1,0 +1,20 @@
+[
+    {
+        "id": "101",
+        "title": "Micro-frontends: Strategies for Scale",
+        "date": "Oct 12, 2024",
+        "category": "Engineering",
+        "image": "https://placehold.co/800x400/eeeeee/7CB342?text=Micro-frontends",
+        "excerpt": "Exploring module federation and how to split monolithic frontend architectures effectively for large teams.",
+        "content": "<p>Full HTML content of the article goes here.</p><p>This allows you to write long-form content in JSON and have it render in the modal.</p>"
+    },
+    {
+        "id": "102",
+        "title": "The Psychology of Dark Mode",
+        "date": "Sep 28, 2024",
+        "category": "UI/UX",
+        "image": "https://placehold.co/800x400/222222/eeeeee?text=Dark+Mode",
+        "excerpt": "Why contrast ratios matter more than color choice when designing accessible dark themes.",
+        "content": "<p>Dark mode is not just inverting colors...</p>"
+    }
+]

@@ -1,0 +1,32 @@
+{
+    "experience": [
+        {
+            "period": "2021 - Present",
+            "role": "Principal Engineer",
+            "company": "TechFlow Solutions",
+            "desc": "Leading frontend migration to Micro-frontends. Improved CI/CD speed by 40%."
+        },
+        {
+            "period": "2018 - 2021",
+            "role": "Senior UI Developer",
+            "company": "Creative Agency X",
+            "desc": "Spearheaded design system used across 50+ client projects."
+        }
+    ],
+    "education": [
+        {
+            "year": "2013 - 2015",
+            "degree": "M.S. Computer Science",
+            "school": "Stanford University"
+        },
+        {
+            "year": "2009 - 2013",
+            "degree": "B.E. Software Engineering",
+            "school": "MIT"
+        }
+    ],
+    "skills": [
+        "JavaScript (ES6+)", "TypeScript", "React", "Next.js", "Vue.js", 
+        "Node.js", "GraphQL", "Docker", "AWS", "Figma", "Tailwind"
+    ]
+}

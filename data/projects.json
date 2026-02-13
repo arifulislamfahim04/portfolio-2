@@ -1,0 +1,34 @@
+[
+    {
+        "id": "1",
+        "title": "FinTech Dashboard",
+        "category": "web",
+        "image": "https://placehold.co/600x400/e0e0e0/333?text=FinTech+App",
+        "tech": "React / D3.js",
+        "link": "#"
+    },
+    {
+        "id": "2",
+        "title": "Health Tracker",
+        "category": "mobile",
+        "image": "https://placehold.co/600x400/d4d4d4/333?text=Health+App",
+        "tech": "Flutter / Firebase",
+        "link": "#"
+    },
+    {
+        "id": "3",
+        "title": "NeoBank UI Kit",
+        "category": "design",
+        "image": "https://placehold.co/600x400/cccccc/333?text=UI+Kit",
+        "tech": "Figma",
+        "link": "#"
+    },
+    {
+        "id": "4",
+        "title": "E-Commerce API",
+        "category": "web",
+        "image": "https://placehold.co/600x400/bdbdbd/333?text=E-Commerce",
+        "tech": "Node.js / Stripe",
+        "link": "#"
+    }
+]
