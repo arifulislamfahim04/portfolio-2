@@ -1,23 +1,23 @@
 {
-    "name": "Alex Morgan",
+    "name": "Ariful Islam Fahim",
     "avatar": "https://ui-avatars.com/api/?name=Alex+Morgan&background=7CB342&color=fff&size=200",
-    "roles": ["Senior Frontend Engineer", "UI/UX Designer", "Performance Expert"],
-    "bio": "I am a Senior Software Architect with over 10 years of experience building scalable, high-performance web applications. I specialize in JavaScript ecosystems, design systems, and bridging the gap between design and engineering.",
+    "roles": ["Textile Engineer", "Researcher", "Story Teller"],
+    "bio": "I transform complex textile chemistry into functional industrial solutions. With a 3.91 CGPA and 4x Vice Chancellor’s Honors, I combine rigorous analytical thinking with hands-on innovation—proven by engineering pH-sensitive textiles with a 45% increase in durability.",
     "socials": [
         {"platform": "GitHub", "icon": "bxl-github", "url": "https://github.com"},
-        {"platform": "LinkedIn", "icon": "bxl-linkedin", "url": "https://linkedin.com"},
+        {"platform": "LinkedIn", "icon": "bxl-linkedin", "url": "https://www.linkedin.com/in/ariful-islam-fahim/"},
         {"platform": "Twitter", "icon": "bxl-twitter", "url": "https://twitter.com"}
     ],
     "services": [
-        {"title": "Frontend Arch", "icon": "bx-code-alt", "desc": "Scalable architecture for enterprise apps."},
-        {"title": "UI Design", "icon": "bx-palette", "desc": "Pixel-perfect intuitive interfaces."},
+        {"title": "Smart Material R&D", "icon": "bx-microscope", "desc": "Developing responsive textiles using anthocyanin extraction for medical and smart-apparel applications."},
+        {"title": "Technical QC & Analysis", "icon": "bx-palette", "desc": "Pixel-perfect intuitive interfaces."},
         {"title": "Performance", "icon": "bx-rocket", "desc": "Core Web Vitals optimization."},
         {"title": "Mentorship", "icon": "bx-group", "desc": "Leading engineering teams."}
     ],
     "contactMessage": "I am currently open for freelance projects and consulting. Feel free to reach out.",
     "contactDetails": [
-        {"icon": "bx-map", "label": "Location", "value": "San Francisco, CA"},
-        {"icon": "bx-envelope", "label": "Email", "value": "hello@alexmorgan.dev"},
-        {"icon": "bx-phone", "label": "Phone", "value": "+1 (555) 012-3456"}
+        {"icon": "bx-map", "label": "Location", "value": "Dhaka, Bangladesh"},
+        {"icon": "bx-envelope", "label": "Email", "value": "arifulislamfahim04@gmail.com"},
+        {"icon": "bx-phone", "label": "Phone", "value": "++880 1968 718018"}
     ]
 }
