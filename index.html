@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Loading Portfolio...</title>
+    <meta name="description" content="Professional Portfolio">
+    
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Page Preloader -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Mobile Header -->
+    <div class="mobile-header">
+        <div class="logo mobile-logo">AM.</div>
+        <button class="menu-toggle" aria-label="Toggle Menu">
+            <i class='bx bx-menu'></i>
+        </button>
+    </div>
+
+    <!-- Sidebar Overlay (Mobile) -->
+    <div class="sidebar-overlay"></div>
+
+    <!-- Main App Container -->
+    <div class="app-container">
+        
+        <!-- Sidebar (Identity Panel) -->
+        <aside class="sidebar">
+            <div class="sidebar-content">
+                <!-- Dynamic Profile Injection -->
+                <div id="sidebar-profile-data">
+                    <!-- JS renders profile img, name, typing effect here -->
+                </div>
+
+                <!-- Navigation -->
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="#about" class="nav-link active" data-page="about"><i class='bx bx-user'></i> About</a></li>
+                        <li><a href="#resume" class="nav-link" data-page="resume"><i class='bx bx-file'></i> Resume</a></li>
+                        <li><a href="#works" class="nav-link" data-page="works"><i class='bx bx-layer'></i> Works</a></li>
+                        <li><a href="#blog" class="nav-link" data-page="blog"><i class='bx bx-edit-alt'></i> Blog</a></li>
+                        <li><a href="#contact" class="nav-link" data-page="contact"><i class='bx bx-envelope'></i> Contact</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Sidebar Footer -->
+                <div class="sidebar-footer">
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Dark Mode">
+                        <i class='bx bx-moon'></i>
+                    </button>
+                    <!-- CV Actions -->
+                    <div class="cv-actions">
+                        <a href="#" class="btn-download" id="download-cv" download>CV <i class='bx bx-download'></i></a>
+                        <button class="btn-print" id="print-cv" aria-label="Print CV"><i class='bx bx-printer'></i></button>
+                    </div>
+                    <div class="copyright">© <span id="year"></span></div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            
+            <!-- SECTION: ABOUT -->
+            <section id="about" class="content-panel active">
+                <header class="panel-header">
+                    <h2 class="panel-title">About Me</h2>
+                    <span class="panel-subtitle">Biography & Expertise</span>
+                </header>
+                <div class="grid-layout" id="about-content">
+                    <!-- JS renders Bio & Services here -->
+                </div>
+            </section>
+
+            <!-- SECTION: RESUME -->
+            <section id="resume" class="content-panel">
+                <header class="panel-header">
+                    <h2 class="panel-title">Resume</h2>
+                    <span class="panel-subtitle">Education & Experience</span>
+                </header>
+                <div class="resume-grid" id="resume-content">
+                    <!-- JS renders Experience, Education, Skills -->
+                </div>
+                
+                <!-- Hidden PDF Viewer Container (Optional enhancement) -->
+                <div id="pdf-viewer-container" style="display:none; margin-top:30px;">
+                    <iframe id="pdf-frame" src="" width="100%" height="500px"></iframe>
+                </div>
+            </section>
+
+            <!-- SECTION: WORKS -->
+            <section id="works" class="content-panel">
+                <header class="panel-header">
+                    <h2 class="panel-title">Portfolio</h2>
+                    <span class="panel-subtitle">Recent Projects</span>
+                </header>
+
+                <div class="portfolio-filter" id="portfolio-filters">
+                    <!-- JS renders filters -->
+                </div>
+
+                <div class="works-grid" id="works-grid">
+                    <!-- JS renders projects -->
+                </div>
+            </section>
+
+            <!-- SECTION: BLOG -->
+            <section id="blog" class="content-panel">
+                <header class="panel-header">
+                    <h2 class="panel-title">Blog</h2>
+                    <span class="panel-subtitle">Thoughts & Tutorials</span>
+                </header>
+                <div class="blog-grid" id="blog-grid">
+                    <!-- JS renders blog posts -->
+                </div>
+            </section>
+
+            <!-- SECTION: CONTACT -->
+            <section id="contact" class="content-panel">
+                <header class="panel-header">
+                    <h2 class="panel-title">Contact</h2>
+                    <span class="panel-subtitle">Get in Touch</span>
+                </header>
+
+                <div class="contact-wrapper">
+                    <div class="card contact-info" id="contact-info">
+                        <!-- JS renders contact details -->
+                    </div>
+
+                    <form class="contact-form card" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Send Message <i class='bx bx-send'></i></button>
+                    </form>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- Universal Modal (Blog Reader / Project Details) -->
+    <div id="modal-overlay" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close Modal">&times;</button>
+            <div id="modal-body">
+                <!-- Dynamic Content Loaded Here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
